@@ -5,7 +5,6 @@
 > unsaturated seepage, and **hydro-mechanical coupling** under cyclic traffic loading.
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2021b+-orange.svg)](https://www.mathworks.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
@@ -24,7 +23,7 @@ issues (process alive but no result output) beyond 10k–20k load cycles, making
 simulation of subgrade performance infeasible.
 
 This project is a **deeply re-engineered fork** of the open-source program
-**[AMPLE-MATLAB](https://github.com/dunatunga/AMPLE-MATLAB)** (Dunatunga & Kamrin, MIT).
+**[AMPLE-MATLAB](https://github.com/wmcoombs/AMPLE)**.
 The original 6-module framework has been extended into a dedicated
 **PAVMPM platform** for hydro-mechanically coupled subgrade analysis, with
 **3,000+ lines of new code** and **>80% of the codebase modified**.
@@ -226,14 +225,6 @@ ample_singleSolve_Flow_3Dslope_BX;
 5. van Genuchten M.T. (1980). A closed-form equation for predicting the hydraulic
    conductivity of unsaturated soils.
 6. Allen R.G., et al. (1998). FAO Penman-Monteith equation for computing crop evapotranspiration.
-
----
-
-## 📄 License
-
-MIT License for the newly developed code in this repository. The original AMPLE-MATLAB
-code remains under its original license; see [LICENSE](LICENSE).
-
 ---
 
 ## ✉️ Contact
